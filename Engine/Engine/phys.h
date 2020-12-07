@@ -3,7 +3,6 @@
 #include <vector>
 
 
-
 using namespace std;
 
 
@@ -62,6 +61,10 @@ public:
 		cout << "The text physics Engine Is made for testing different mass, and rotations without using any graphics.\n";
 		cout << "To start using, Read the manual.html file.";
 		Sleep(3000);
+		return 0;
+	}
+	int ReCompile() {
+		system("gcc Engine.cpp");
 		return 0;
 	}
 };
