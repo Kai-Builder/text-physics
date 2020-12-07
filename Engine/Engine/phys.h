@@ -61,5 +61,6 @@ public:
 	int help() {
 		cout << "The text physics Engine Is made for testing different mass, and rotations without using any graphics.\n";
 		cout << "To start using, Read the manual.html file.";
+		return 0;
 	}
 };
